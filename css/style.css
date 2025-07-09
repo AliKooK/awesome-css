@@ -6,6 +6,8 @@
     height: 250px;
     padding: 40px;
     padding-top: 0;
+    align-self: stretch;
+    flex-grow: 1;
     
 }
 body{
@@ -197,4 +199,49 @@ ul{
     justify-content: center;
     align-items: center;
     padding: 20px 0;
+}
+
+.all1{
+
+    font-family: sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #3882f6;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    gap: 30px;
+    color: white;
+    font-family: sans-serif;
+}
+#i2{
+ font-size: 30px;
+}
+#ii2{
+    font-size: 20px;
+}
+.vii2{
+    font-size: 50px;
+    font-weight: bold;
+}
+#iii2{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+    gap: 20px;
+    background-color: cornsilk;
 }
